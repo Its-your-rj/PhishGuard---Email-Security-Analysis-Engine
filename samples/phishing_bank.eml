@@ -1,0 +1,43 @@
+From: alerts@bank0famerica-secure.com
+To: customer@example.com
+Subject: Suspicious Activity Detected on Your Account
+Date: Mon, 19 Jan 2024 14:20:00 +0000
+Message-ID: <bank321@bank0famerica-secure.com>
+Return-Path: attacker@evil-server.ru
+Content-Type: text/html; charset=utf-8
+
+<html>
+<body>
+
+<img src="http://malicious.com/fake-logo.png" alt="Bank Logo">
+
+<h3>Account Security Alert</h3>
+
+<p>Dear Customer,</p>
+
+<p>We have identified suspicious login attempts on your Bank of America account 
+from the following locations:</p>
+
+<ul>
+    <li>Nigeria - January 19, 2024 at 2:15 AM</li>
+    <li>Russia - January 19, 2024 at 3:30 AM</li>
+</ul>
+
+<p><b style="color: red;">IMMEDIATE ACTION REQUIRED</b></p>
+
+<p>To protect your account, please verify your identity by clicking the secure link below:</p>
+
+<p><a href="http://bank-verify-secure.tk/login.php">Secure Verification Portal</a></p>
+
+<p>For your security, this link will expire in 2 hours.</p>
+
+<p>If you did not attempt to access your account, please contact us immediately at 
+the number on the back of your card.</p>
+
+<p>Thank you for banking with us.</p>
+
+<p>Bank of America Security Department<br>
+Reference: SEC-BA-2024-1847</p>
+
+</body>
+</html>

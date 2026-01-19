@@ -1,0 +1,23 @@
+From: john.doe@company.com
+To: jane.smith@company.com
+Subject: Q4 Meeting Notes
+Date: Mon, 19 Jan 2024 10:00:00 +0000
+Message-ID: <abc123@company.com>
+DKIM-Signature: v=1; a=rsa-sha256; d=company.com; s=default
+Received-SPF: pass
+Content-Type: text/plain; charset=utf-8
+
+Hi Jane,
+
+Thank you for attending the Q4 planning meeting yesterday. Here are the key takeaways:
+
+1. Revenue targets for Q4 2024
+2. New product launch timeline
+3. Team expansion plans
+
+Please review the attached presentation and let me know if you have any questions.
+
+Best regards,
+John Doe
+Senior Project Manager
+Company Inc.

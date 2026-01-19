@@ -1,0 +1,50 @@
+From: security@paypa1-secure.com
+To: victim@example.com
+Subject: URGENT: Your PayPal Account Has Been Limited
+Date: Mon, 19 Jan 2024 12:45:00 +0000
+Message-ID: <phish789@paypa1-secure.com>
+Reply-To: phisher@malicious-server.com
+Content-Type: text/html; charset=utf-8
+
+<html>
+<body style="font-family: Arial, sans-serif;">
+
+<div style="background-color: #003087; padding: 20px;">
+    <h2 style="color: white;">PayPal Account Review</h2>
+</div>
+
+<div style="padding: 20px;">
+    <p><b>Dear Valued Customer,</b></p>
+    
+    <p>We have detected unusual activity on your PayPal account. For your security, 
+    we have temporarily limited your account access.</p>
+    
+    <p><font color="red"><b>IMPORTANT: You must verify your identity within 24 hours 
+    or your account will be permanently suspended.</b></font></p>
+    
+    <p>To restore full access, please click the link below:</p>
+    
+    <p><a href="http://192.168.1.100/paypal-verify.php" 
+    style="background-color: #0070ba; color: white; padding: 10px 20px; text-decoration: none;">
+    Verify Your Account Now</a></p>
+    
+    <p>If you do not verify within 24 hours, you will lose access to:</p>
+    <ul>
+        <li>Send and receive money</li>
+        <li>Withdraw funds</li>
+        <li>Access transaction history</li>
+    </ul>
+    
+    <p>We apologize for any inconvenience.</p>
+    
+    <p>Sincerely,<br>
+    PayPal Security Team</p>
+    
+    <p style="font-size: 10px; color: gray;">
+    Reference ID: SEC-2024-892347<br>
+    Case Number: PP-URG-7821
+    </p>
+</div>
+
+</body>
+</html>
