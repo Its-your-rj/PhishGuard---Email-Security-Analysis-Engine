@@ -1,4 +1,4 @@
-# Email Security Analysis Engine 🔐
+# PhishGuard - Email Security Analysis Engine 🔐
 
 A production-ready, rule-based email classification system that automatically detects **phishing**, **spam**, and **legitimate** emails with **95-98% accuracy** — **no training data required**.
 

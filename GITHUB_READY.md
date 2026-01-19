@@ -1,9 +1,9 @@
-# ✅ EmailGuard - Ready for GitHub! 🚀
+# ✅ PhishGuard - Ready for GitHub! 🚀
 
 ## Project Renamed & Git Ready
 
 Your project has been:
-- ✅ **Renamed** from `projectpcr` → **`EmailGuard`** (catchy name!)
+- ✅ **Renamed** from `projectpcr` → **`PhishGuard`** (catchy name!)
 - ✅ **Git initialized** with all files committed
 - ✅ **GitHub configured** with issue templates, contributing guide, and more
 - ✅ **Production-ready** for immediate GitHub deployment
@@ -85,8 +85,8 @@ setup.py                          - Package setup
 
 ### Step 1: Create GitHub Repository
 1. Go to https://github.com/new
-2. **Repository name:** `EmailGuard`
-3. **Description:** "Production-ready email security analysis engine - detects phishing, spam, and legitimate emails with 95-98% accuracy. Rule-based classification, no training data required."
+2. **Repository name:** `PhishGuard`
+3. **Description:** "PhishGuard - Production-ready email security analysis engine - detects phishing, spam, and legitimate emails with 95-98% accuracy. Rule-based classification, no training data required."
 4. **Public/Private:** Choose your preference
 5. Click **"Create repository"**
 
@@ -201,12 +201,12 @@ Releases:      https://github.com/YOUR_USERNAME/EmailGuard/releases
 
 ## 🎨 Project Branding
 
-### EmailGuard
+### PhishGuard
 ```
-Tagline:     "Rule-Based Email Security That Just Works"
+Tagline:     "Rule-Based Phishing Detection That Just Works"
 Slogan:      "Detect phishing, spam, and protect your inbox"
-Emoji:       🛡️📧✉️
-Color:       Blue/Purple (security theme)
+Emoji:       🛡️🎣🚨
+Color:       Red/Blue (security + warning theme)
 ```
 
 ### Key Differentiators
@@ -255,8 +255,8 @@ commit 407172c
 ## 🎯 Repository Card (for sharing)
 
 ```
-📦 EmailGuard
-🛡️ Production-ready email security analysis engine
+📦 PhishGuard
+🛡️ Production-ready phishing detection engine
 
 Features:
 ✅ Detects phishing, spam, and legitimate emails
@@ -415,7 +415,7 @@ git log
 
 ## 🏁 You're Ready!
 
-EmailGuard is now:
+PhishGuard is now:
 - ✅ Named professionally
 - ✅ Git initialized
 - ✅ GitHub configured
@@ -431,6 +431,6 @@ Push to GitHub using the command in **Step 3-5** above.
 
 ---
 
-**Thank you for using EmailGuard!**
+**Thank you for using PhishGuard!**
 
-_Made with ❤️ for email security_
+_Made with ❤️ for phishing detection and email security_

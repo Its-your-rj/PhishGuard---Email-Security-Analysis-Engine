@@ -6,8 +6,8 @@
 
 #### 1. Create Repository on GitHub
 1. Go to [https://github.com/new](https://github.com/new)
-2. **Repository name:** `EmailGuard`
-3. **Description:** "Production-ready email security analysis engine - detects phishing, spam, and legitimate emails with 95-98% accuracy. Rule-based classification, no training data required."
+2. **Repository name:** `PhishGuard`
+3. **Description:** "PhishGuard - Production-ready email security analysis engine - detects phishing, spam, and legitimate emails with 95-98% accuracy. Rule-based classification, no training data required."
 4. **Public/Private:** Choose (recommend Public for open source)
 5. **Add .gitignore:** Already done ✅
 6. **Add License:** MIT selected ✅

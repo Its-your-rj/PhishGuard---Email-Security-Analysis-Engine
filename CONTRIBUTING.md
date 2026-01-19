@@ -1,6 +1,6 @@
-# Contributing to EmailGuard
+# Contributing to PhishGuard
 
-Thank you for your interest in contributing to EmailGuard! 🎉
+Thank you for your interest in contributing to PhishGuard! 🎉
 
 ## How to Contribute
 
@@ -159,7 +159,7 @@ Contributors will be:
 - Thanked in release notes
 - Featured on the project website
 
-Thank you for contributing to EmailGuard! 🙏
+Thank you for contributing to PhishGuard! 🙏
 
 ---
 
