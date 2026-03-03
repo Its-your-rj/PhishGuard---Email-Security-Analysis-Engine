@@ -1,0 +1,44 @@
+From: orders@amazon.com
+To: customer@example.com
+Subject: Your Amazon.com Order #111-2234567-1234567 Shipped
+Date: Thu, 22 Jan 2024 14:15:00 +0000
+Message-ID: <order456@amazon.com>
+DKIM-Signature: v=1; a=rsa-sha256; d=amazon.com; s=default
+Received-SPF: pass
+Content-Type: text/html; charset=utf-8
+
+<html>
+<body style="font-family: Arial, sans-serif;">
+
+<h2>Your Order Has Shipped!</h2>
+
+<p>Hello Customer,</p>
+
+<p>Great news! Your order #111-2234567-1234567 has been shipped and is on its way to you.</p>
+
+<h3>Order Summary:</h3>
+<table border="1" cellpadding="10">
+    <tr>
+        <td><b>Product</b></td>
+        <td><b>Quantity</b></td>
+        <td><b>Price</b></td>
+    </tr>
+    <tr>
+        <td>Wireless Bluetooth Headphones</td>
+        <td>1</td>
+        <td>$49.99</td>
+    </tr>
+</table>
+
+<p><b>Estimated Delivery:</b> January 25-27, 2024</p>
+
+<p><b>Tracking Number:</b> 1Z999AA10123456784</p>
+
+<p>You can track your package anytime by visiting your Amazon account.</p>
+
+<p>Thank you for shopping with Amazon!</p>
+
+<p>Amazon.com Customer Service</p>
+
+</body>
+</html>

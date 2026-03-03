@@ -1,0 +1,40 @@
+From: newsletter@github.com
+To: developer@example.com
+Subject: Your GitHub Security Alert
+Date: Fri, 23 Jan 2024 11:45:00 +0000
+Message-ID: <github123@github.com>
+DKIM-Signature: v=1; a=rsa-sha256; d=github.com; s=default
+Received-SPF: pass
+Content-Type: text/html; charset=utf-8
+
+<html>
+<body style="font-family: Segoe UI, Ubuntu, sans-serif;">
+
+<h2>GitHub Security Alert</h2>
+
+<p>Hi developer,</p>
+
+<p>We detected a successful sign-in from a new device on your GitHub account on January 23, 2024 at 11:30 UTC.</p>
+
+<p><b>Sign-in Details:</b></p>
+<ul>
+    <li>Location: New York, USA</li>
+    <li>Device: Windows 10</li>
+    <li>Browser: Chrome</li>
+    <li>IP Address: 203.0.113.45</li>
+</ul>
+
+<p>If this wasn't you, we recommend you:</p>
+<ol>
+    <li><a href="https://github.com/settings/security">Review your GitHub security settings</a></li>
+    <li><a href="https://github.com/logout">Sign out of all sessions</a></li>
+    <li>Enable two-factor authentication</li>
+</ol>
+
+<p>This is an automated alert for your protection. GitHub never asks you to confirm passwords via email.</p>
+
+<p>GitHub Security Team<br>
+security@github.com</p>
+
+</body>
+</html>

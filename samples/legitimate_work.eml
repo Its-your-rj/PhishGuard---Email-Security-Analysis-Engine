@@ -1,0 +1,34 @@
+From: support@company.com
+To: john.smith@company.com
+Subject: Quarterly Performance Review Scheduled
+Date: Thu, 22 Jan 2024 09:30:00 +0000
+Message-ID: <hr123@company.com>
+DKIM-Signature: v=1; a=rsa-sha256; d=company.com; s=default
+Received-SPF: pass
+Content-Type: text/plain; charset=utf-8
+
+Dear John,
+
+We are pleased to inform you that your quarterly performance review has been scheduled.
+
+Review Details:
+- Date: Friday, January 26, 2024
+- Time: 2:00 PM - 2:30 PM
+- Location: HR Conference Room B
+- Reviewer: Sarah Johnson, HR Manager
+
+Please confirm your attendance by replying to this email.
+
+During the review, we will discuss:
+1. Your accomplishments this quarter
+2. Areas of professional development
+3. Goals for the next quarter
+4. Compensation and benefits
+
+If you have any documents you'd like to bring or questions, please feel free to reach out to the HR team.
+
+Best regards,
+Human Resources Department
+Company Inc.
+hr@company.com
+(555) 123-4567

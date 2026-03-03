@@ -1,0 +1,43 @@
+From: account-security@amazon-verify.co.uk
+To: customer@example.com
+Subject: Your Amazon Account Needs Verification
+Date: Tue, 20 Jan 2024 09:15:00 +0000
+Message-ID: <amazon789@amazon-verify.co.uk>
+Return-Path: support@phishing-site.ru
+Content-Type: text/html; charset=utf-8
+
+<html>
+<head>
+    <title>Amazon Account Verification</title>
+</head>
+<body style="font-family: Arial; background: #f5f5f5;">
+
+<div style="background: #FF9900; padding: 20px; text-align: center;">
+    <h2>Amazon Account Security</h2>
+</div>
+
+<div style="background: white; padding: 20px; margin: 20px;">
+    
+    <p>Dear Valued Customer,</p>
+    
+    <p>We have detected unusual activity on your Amazon account and need to verify your identity immediately.</p>
+    
+    <p><b>Your account has been LOCKED for security purposes.</b></p>
+    
+    <p>To regain access, please verify your identity by clicking the link below:</p>
+    
+    <p style="text-align: center;">
+        <a href="http://amazon-login-verify.tk/account/login" style="background: #FF9900; color: white; padding: 10px 20px; text-decoration: none; font-weight: bold;">
+            Verify Your Account Now
+        </a>
+    </p>
+    
+    <p>This link expires in 1 hour. If you don't verify, your account will be permanently suspended.</p>
+    
+    <p>Amazon Customer Service<br>
+    Account Protection Team</p>
+    
+</div>
+
+</body>
+</html>

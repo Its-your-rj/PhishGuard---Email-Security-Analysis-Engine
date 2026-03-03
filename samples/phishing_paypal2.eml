@@ -1,0 +1,26 @@
+From: billing@paypal-secure-update.net
+To: user@example.com
+Subject: Action Required: Update Your PayPal Payment Method
+Date: Tue, 20 Jan 2024 14:45:00 +0000
+Message-ID: <paypal456@paypal-secure-update.net>
+Return-Path: noreply@malicious-gateway.com
+Content-Type: text/html; charset=utf-8
+
+<html>
+<body>
+
+<p>Dear PayPal Member,</p>
+
+<p>Your account has a billing problem. We need you to update your payment information immediately to avoid service suspension.</p>
+
+<p>Your payment method on file has failed. <b>This is urgent - Please update now:</b></p>
+
+<p><a href="http://paypal-login-verify.tk/cgi-bin/webscr?cmd=update">UPDATE PAYMENT METHOD</a></p>
+
+<p>Click the link above and log in to your PayPal account to update your payment method. You will not be able to use PayPal services until this is resolved.</p>
+
+<p>Thank you,<br>
+PayPal Billing Department</p>
+
+</body>
+</html>
