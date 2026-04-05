@@ -247,6 +247,29 @@ class EmailClassifier:
         
         return final_score, indicators
     
+    def _ml_classification(self, parsed_email: Dict) -> float:
+        """ML-based classification using trained model"""
+        if not self.model or not self.vectorizer:
+            return 0.0
+        
+        try:
+            # Extract text features
+            subject = parsed_email.get('subject', '')
+            body = parsed_email.get('body', '')
+            text = f"{subject} {body}"
+            
+            # Vectorize
+            text_vector = self.vectorizer.transform([text])
+            
+            # Predict
+            prediction = self.model.predict_proba(text_vector)[0]
+            
+            # Return the probability of being malicious (phishing/spam)
+            return max(prediction[1], prediction[2]) if len(prediction) > 2 else prediction[1]
+        except Exception as e:
+            print(f"ML classification error: {e}")
+            return 0.0
+    
     def _is_spoofed_domain(self, domain: str) -> bool:
         """Check if domain appears to be spoofed"""
         if not domain:

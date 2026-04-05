@@ -21,7 +21,11 @@ app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
 classifier = EmailClassifier()
 email_parser = EmailParser()
 audit_logger = AuditLogger()
-ml_model = EnhancedMLModel()
+try:
+    ml_model = EnhancedMLModel()
+except Exception as e:
+    print(f"Warning: Could not load ML model: {e}")
+    ml_model = None
 
 # Store uploaded files temporarily
 UPLOAD_FOLDER = Path('uploads')
@@ -132,7 +136,7 @@ def settings():
     settings_data = {
         'phishing_threshold': 0.40,
         'spam_threshold': 0.35,
-        'ml_enabled': ml_model.is_trained,
+        'ml_enabled': ml_model.is_trained if ml_model else False,
         'use_ensemble': True
     }
     return render_template('settings.html', settings=settings_data)
@@ -198,7 +202,7 @@ def api_settings():
     settings_data = {
         'phishing_threshold': 0.40,
         'spam_threshold': 0.35,
-        'ml_enabled': ml_model.is_trained,
+        'ml_enabled': ml_model.is_trained if ml_model else False,
         'use_ensemble': True
     }
     return jsonify(settings_data)
@@ -234,4 +238,4 @@ def calculate_hourly_trends(history):
 if __name__ == '__main__':
     print("Starting PhishGuard Web Dashboard")
     print("Visit: http://localhost:5000")
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=False, host='0.0.0.0', port=5000)

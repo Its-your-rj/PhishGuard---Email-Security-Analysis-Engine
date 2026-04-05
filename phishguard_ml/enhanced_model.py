@@ -1,6 +1,4 @@
 import numpy as np
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.feature_extraction.text import TfidfVectorizer
 import pickle
 import os
 from pathlib import Path
@@ -32,22 +30,31 @@ class EnhancedMLModel:
     
     def _create_new_model(self):
         """Create new ML model"""
-        self.model = RandomForestClassifier(
-            n_estimators=100,
-            max_depth=20,
-            min_samples_split=5,
-            random_state=42,
-            n_jobs=-1
-        )
-        
-        self.vectorizer = TfidfVectorizer(
-            max_features=5000,
-            ngram_range=(1, 2),
-            stop_words='english'
-        )
-        
-        self.is_trained = False
-        print("Created new ML model")
+        try:
+            from sklearn.ensemble import RandomForestClassifier
+            from sklearn.feature_extraction.text import TfidfVectorizer
+            
+            self.model = RandomForestClassifier(
+                n_estimators=100,
+                max_depth=20,
+                min_samples_split=5,
+                random_state=42,
+                n_jobs=-1
+            )
+            
+            self.vectorizer = TfidfVectorizer(
+                max_features=5000,
+                ngram_range=(1, 2),
+                stop_words='english'
+            )
+            
+            self.is_trained = False
+            print("Created new ML model")
+        except ImportError as e:
+            print(f"Warning: Could not import sklearn: {e}")
+            self.model = None
+            self.vectorizer = None
+            self.is_trained = False
     
     def train(self, emails_data, labels):
         """Train the ML model
